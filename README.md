@@ -180,3 +180,4 @@ https://www.openprocessing.org/sketch/624879
 It is covered under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License which can be found here:
 https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
 
+This licence is also readable in the licence.md file in the submission. 
