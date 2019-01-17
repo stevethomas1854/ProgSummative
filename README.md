@@ -1,6 +1,6 @@
 # class Painting
 ## Description
-This class works with a P5 canvas to paint an image. The way it does this is by having 100s of objects that move about in circles over the canvas and they draw lines based up on the colour of the image at that particular point. This movement combined with the large number of objects creates a cool graphic. This class describes a single painting which is given default parameters to start off with, such as the image which it is painting and also the amount of objects that move across the canvas.
+This class works with a P5 canvas to paint an image. The way it does this is by having 100s of objects that move about in circles over the canvas and they draw lines based up on the colour of the image at that particular point. This movement combined with the large number of objects creates a cool graphic. This class describes a single painting which is given default parameters to start off with, such as the image which it is painting and also the number of objects that move across the canvas.
 ## Attributes
 ### imageName
 This attribute is a string that is used to store the URL link to the image used in the painting.
