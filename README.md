@@ -104,7 +104,7 @@ The draw method can be thought of as two parts. The first part accomodates for t
 		}
 
 ```
-As you can see, the first if statement is run if image is not loaded yet. It displays a loading screen and has the return keyword. This means that the `draw()` function is started again without going to the rest of the code. This means that the minute the if statement is made false (aka when the image loads) it runs the if statement directly after it. This is where the canvas is created using the `createCanvas()` method from p5. The size of it matches the image. This means the sketch can now accomodate for pictures of any size, not just set sizes. The background colour is also set and the attribute `notLoaded` is set to false so that this if statement doesn't run again. 
+As you can see, the first `if` statement is run if the image is not loaded yet. It displays a loading screen and has the return keyword. This means that the `draw()` function is started again without going to the rest of the code. This means that the moment that the `if` statement is made false (aka when the image loads) it runs the `if` statement directly after it. This is where the canvas is created using the `createCanvas()` method from p5. The size of it matches the image. This means the sketch can now accomodate for images of any size, not just 600x600 as it was in the original. The background colour is also set and the attribute `notLoaded` is set to false so that this `if` statement doesn't run again. 
 
 Finally, the script iterates through the array `circles` populating each object with a starting value for all its properties (outlined above in the `circles` description)
 
@@ -156,19 +156,19 @@ This is another getter than returns the string containing the URL to the image b
 This is also another getter which retrieves the value of the `greyscaleEnabled` attribute.
 
 ### getRandomStartBoolean()
-This getter returns the boolean value of `randomStartingPosition`
+This getter returns the boolean value of `randomStartingPosition`.
 
 ### setCircleNum()
-This is a setter that changes the value of the `numOfCircles` attribute after checking some certain rules
+This is a setter that changes the value of the `numOfCircles` attribute after checking some certain rules.
 
 ### setImageName()
-This setter changes the `imageName` attribute which allows you to change the photo being displayed
+This setter changes the `imageName` attribute which allows you to change the image being displayed.
 
 ### setGreyscale()
-This setter changes the value of the `greyscale` attribute
+This setter changes the value of the `greyscaleEnabled` attribute.
 
 ### refreshImage()
-This method is very important as it is what you use if you want to restart the painting without having to declare another object. What it does is it gets rid of the canvas, changes the value of attributes to whatever has been given in the arguments and reloads the image so the whole process is started again as if someone had run the constructor again. s
+This method is very important as it is what you use if you want to restart the painting without having to declare another object. What it does is it gets rid of the canvas, changes the value of attributes to whatever has been given in the arguments and reloads the image so the whole process is started again as if someone had run the constructor again. 
 
 # Example Webpage
 The example webpage showcases the parameterisation of the class. It shows how the class can easily handle any image it wants as opposed to just the one that was in the original source. Furthermore, it shows extension of scope as I have added features such as being able to make it greyscale or even have the ability to make it start from random points on the canvas. I used Bootstrap to make it more visually appealing. 
