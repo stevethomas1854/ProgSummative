@@ -8,15 +8,15 @@ This attribute is a string that is used to store the URL link to the image used 
 painting1.imageName = "https://www.openprocessing.org/sketch/392202/files/portrait2.jpg"
 ```
 ### numOfCircles
-This is an integer that is used to store the number of objects or 'circles' that would traverse across the canvas painting as they go along.
+This is an integer that is used to store the number of objects or 'circles' that would traverse across the canvas painting.
 ```javascript
 painting1.numOfCircles = random(150,350)
 ```
 ### backgroundColour
 This is an array of integers in the format [R,G,B] that represents a colour that the background should be. It is used to feed into the background() function in p5.
 ```javascript
-painting1.background = [231, 178, 129]
-background(painting1.background)
+painting1.backgroundColour = [231, 178, 129]
+background(painting1.backgroundColour)
 ```
 ### randomStartingPosition
 This is a boolean that is used to dictate whether the circles start from the middle or a random place on the canvas. 
